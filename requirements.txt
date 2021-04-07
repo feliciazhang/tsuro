@@ -1,0 +1,7 @@
+typing-extensions==3.7.4    # Used for Literal types in python 3.6
+pytest==5.2.0               # Used for unit tests
+dataclasses==0.6            # Used for dataclasses
+websockets==8.0.2           # Used for GUI rendering
+hypothesis==4.41.2          # Used for quickcheck style unit tests
+pyrsistent==0.15.4          # Used for immutable data structures
+pynput==1.4.5               # Used for keyboard input in observers

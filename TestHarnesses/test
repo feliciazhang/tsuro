@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+cd ../ && python3.6 -m Admin.tournament_observer_test

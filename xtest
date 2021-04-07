@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+IFS=$'\n\t'
+
+export IS_TYPE_CHECKING="True"
+export PATH="$PATH:~/.local/bin/"
+
+python3.6 -m pytest -v .
